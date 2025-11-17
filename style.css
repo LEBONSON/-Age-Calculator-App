@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%; /* width me permet de prendre toute la largeur de l'ecran */
+    min-height: 100vh; /* min-height me permet de prendre toute la hauteur de l'ecran */
+    background: linear-gradient(135deg, #4203a9, #90bafc); /* background me permet de mettre une couleur de fond */
+    color: #fff; /* color me permet de mettre une couleur au texte */
+    padding: 10px; /* padding me permet de mettre un espace entre le texte et le bord */
+}
+.calculator{
+    width: 100%; /* width me permet de prendre toute la largeur de l'ecran */
+    max-width: 600px; /* max-width me permet de limiter la largeur de la boite */
+    margin-left: 10%; /* margin left me permet de centrer la boite */
+    margin-top: 10%; /* margin top me permet de centrer la boite */
+}
+
+.calculator h1{
+    font-size: 60px; /* font-size me permet de mettre une taille au texte */
+}
+
+.calculator h1 span{
+    color: #ffff76; /* color me permet de mettre une couleur au texte */
+}
+
