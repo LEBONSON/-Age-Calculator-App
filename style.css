@@ -27,3 +27,29 @@
     color: #ffff76; /* color me permet de mettre une couleur au texte */
 }
 
+.input-box{
+    margin:40px 0; /* margin me permet de mettre un espace entre les elements */
+    padding: 35px; /* padding me permet de mettre un espace entre le texte et le bord */
+    border-radius: 10px; /* border-radius me permet de mettre des bords arrondis */
+    background: rgba(255, 255, 255, 0.3); /* background me permet de mettre une couleur de fond */
+    display: flex; /* display me permet de mettre les elements en ligne */
+    align-items: center; /* align-items me permet de centrer les elements verticalement */
+}
+
+.input-box input{
+    flex:1; /* flex me permet de prendre toute la largeur disponible */
+    margin-right: 20px; /* margin-right me permet de mettre un espace entre les elements */
+    padding: 5px; /* padding me permet de mettre un espace entre le texte et le bord */
+    position: relative; /* position me permet de positionner les elements */
+}
+
+.input-box button{
+    background: #ffff76; /* background me permet de mettre une couleur de fond */
+    border: 0; /* border me permet de supprimer la bordure */
+    outline: 0; /* outline me permet de supprimer le contour */
+    padding: 15px 30px; /* padding me permet de mettre un espace entre le texte et le bord */
+    border-radius: 5px; /* border-radius me permet de mettre des bords arrondis */
+    font-weight:500; /* font-weight me permet de mettre une graisse au texte */
+    color:#333; /* color me permet de mettre une couleur au texte */
+    cursor: pointer; /* cursor me permet de changer le curseur */
+}
