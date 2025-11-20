@@ -53,3 +53,26 @@
     color:#333; /* color me permet de mettre une couleur au texte */
     cursor: pointer; /* cursor me permet de changer le curseur */
 }
+
+
+.input-box input::-webkit-calendar-picker { /* Pour les inputs de type date, -webkit-calendar-picker me permet de cibler l'icone du calendrier pour les navigateurs basés sur WebKit */
+    top:0; /* top me permet de positionner l'element */
+    right:0; /* right me permet de positionner l'element */
+    left: 0; /* left me permet de positionner l'element */
+    bottom: 0; /* bottom me permet de positionner l'element */
+    width: auto; /* width me permet de mettre une largeur automatique */
+    height: auto; /* height me permet de mettre une hauteur automatique */
+    position: absolute; /* position me permet de positionner les elements */
+    background-position: calc(100% - 10px); /* background-position me permet de positionner l'image de fond */
+    background-size: 30px; /* background-size me permet de mettre une taille a l'image de fond */
+    cursor: pointer; /* cursor me permet de changer le curseur */ 
+}
+
+#result{
+    font-size: 20px; /* font-size me permet de mettre une taille au texte */
+    text-align: center; /* text-align me permet de centrer le texte */
+}
+#result span{
+    font-weight: 600; /* font-weight me permet de mettre une graisse au texte */
+    color: #ffff76; /* color me permet de mettre une couleur au texte */
+}
